@@ -29,9 +29,9 @@ var partitionLabels = function(s) {
   stringlength.push(s.length)
   
   for (let i = 0; i < stringlength.length-1; i++) {
-    // res.push(s.slice(stringlength[i], stringlength[i+1]))
+    
     res.push(stringlength[i+1] - stringlength[i])
   }
-  // console.log(stringlength,res)
+  
   return res
 };
